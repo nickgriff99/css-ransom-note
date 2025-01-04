@@ -49,6 +49,7 @@ body {
   border: 6px solid grey;
   box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.2);
   transition: all 0.8s ease-in-out;
+  border-color: #ffffff;
 }
 
 /* Sample CSS for the WHY word */
@@ -317,115 +318,282 @@ body {
 
 /* BECAUSE word */
 
+.becauseBLetter, .becauseELetter, .becauseCLetter, .becauseALetter, .becauseULetter, .becauseSLetter, .becauseETwoLetter {
+  font-size: 24px;
+  font-weight: 400;
+  text-decoration: underline;
+  text-decoration-style: dashed;
+  text-decoration-thickness: 5px;
+  text-decoration-color: rgba(0, 0, 0, 0.7);
+  text-transform: uppercase;
+  font-family: 'Sixtyfour', sans-serif;
+}
+
 .becauseBLetter {
+  color: #12162e;
+  background-color: #c3e4f7;
 }
 .becauseELetter {
+  color: #85036f;
+  background-color: #fa57df;
 }
 .becauseCLetter {
+  color: #c2d1c8;
+  background-color: #2df77e;
 }
 .becauseALetter {
+  color: #757302;
+  background-color: #fffd8c;
 }
 .becauseULetter {
+  color: #ffbc8c;
+  background-color: #853c08;
 }
 .becauseSLetter {
+  color: #08855d;
+  background-color: #dae3e0;
 }
 .becauseETwoLetter {
+  color: #6b64bd;
+  background-color: #a21fab;
 }
 
 /* THEY word */
 
+.theyTLetter, .theyHLetter, .theyELetter, .theyYLetter {
+  font-size: 12px;
+  font-weight: 300;
+  text-decoration: line-through;
+  text-decoration-style: dotted;
+  text-decoration-thickness: 2px;
+  text-decoration-color: rgba(0, 0, 0, 0.7);
+  text-transform: lowercase;
+  font-family: 'Sixtyfour', sans-serif;
+}
+
 .theyTLetter {
+  color: #46d448;
+  background-color: #db1f70;
 }
 .theyHLetter {
+  color: #cc9658;
+  background-color: #6e0402;
 }
 .theyELetter {
+  color: #1988b0;
+  background-color: #d152f7;
 }
 .theyYLetter {
+  color: #14f575;
+  background-color: #a80332;
 }
 
 /* WANTED word */
 
+.wantedWLetter, .wantedALetter, .wantedNLetter, .wantedTLetter, .wantedELetter, .wantedDLetter {
+  font-size: 38px;
+  font-weight: 350;
+  text-decoration: none;
+  text-decoration-style: solid;
+  text-transform: capitalize;
+  font-family: 'Ceviche One', sans-serif;
+}
+
 .wantedWLetter {
+  color: #5c313d;
+  background-color: #c9c1c4;
 }
 .wantedALetter {
+  color: #035bff;
+  background-color: #062e01;
 }
 .wantedNLetter {
+  color: #5402b8;
+  background-color: #14ebff;
 }
 .wantedTLetter {
+  color: #e999f7;
+  background-color: #fcdf3a;
 }
 .wantedELetter {
+  color: #fafaf7;
+  background-color: #000000;
 }
 .wantedDLetter {
+  color: #5ae8b4;
+  background-color: #7d7752;
 }
 
 /* TO word */
 
+.toTLetter, .toOLetter {
+  font-size: 20px;
+  font-weight: 500;
+  text-decoration: overline;
+  text-decoration-style: solid;
+  text-decoration-thickness: 4px;
+  text-transform: uppercase;
+  font-family: 'Piazzolla', sans-serif;
+}
+
 .toTLetter {
+  color: #e04b1d;
+  background-color: #ad0797;
 }
 .toOLetter {
+  color: #ed2da7;
+  background-color: #318281;
 }
 
 /* IMPROVE word */
 
+.improveILetter, .improveMLetter, .improvePLetter, .improveRLetter, .improveOLetter, .improveVLetter, .improveELetter {
+  font-size: 55px;
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration-style: solid;
+  text-decoration-thickness: 10px;
+  text-decoration-color: rgba(0, 0, 0, 0.2);
+  text-transform: lowercase;
+  font-family: 'Sixtyfour', sans-serif;
+}
+
 .improveILetter {
+  color: #3c0c7a;
+  background-color: #284ea1;
 }
 .improveMLetter {
+  color: #94ed18;
+  background-color: #d60913;
 }
 .improvePLetter {
+  color: #0d857f;
+  background-color: #9fa6a5;
 }
 .improveRLetter {
+  color: #1d1f18;
+  background-color: #4a4a48;
 }
 .improveOLetter {
+  color: #e6a930;
+  background-color: #26a5ff;
 }
 .improveVLetter {
+  color: ;
+  background-color: ;
 }
 .improveELetter {
+  color: #680cfa;
+  background-color: #0c041a;
 }
 
 /* THEIR word */
 
+.theirTLetter, .theirHLetter, .theirELetter, .theirILetter, .theirRLetter {
+  font-size: 42px;
+  font-weight: bold;
+  text-decoration: line-through;
+  text-decoration-style: dashed;
+  text-decoration-thickness: 5px;
+  text-transform: capitalize;
+  font-family: 'Cevich One', sans-serif;
+}
+
 .theirTLetter {
+  color: #5a457d;
+  background-color: #d6c7ed;
 }
 .theirHLetter {
+  color: #266e6e;
+  background-color: #f0c2c4;
 }
 .theirELetter {
+  color: #ffffff;
+  background-color: #67db92;
 }
 .theirILetter {
+  color: #26bdd4;
+  background-color: #102338;
 }
 .theirRLetter {
+  color: #0e7d28;
+  background-color: #b4bfb6;
 }
 
 /* ROOT word */
 
+.rootRLetter, .rootOLetter, .rootOTwoLetter, .rootTLetter {
+  font-size: 60px;
+  font-weight: 700;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  text-decoration-thickness: 2px;
+  text-transform: none;
+  font-family: 'Raleway Dots', sans-serif;
+}
+
 .rootRLetter {
+  color: #f3f707;
+  background-color: #0f0f0f;
 }
 .rootOLetter {
+  color: #030300;
+  background-color: #f6fa23;
 }
 .rootOTwoLetter {
+  color: #fad223;
+  background-color: #61221a;
 }
 .rootTLetter {
+  color: #16fa4f;
+  background-color: #394f66;
 }
 
 /* SKILLS word */
 
+.skillsSLetter, .skillsKLetter, .skillsILetter, .skillsLLetter, .skillsLTwoLetter, .skillsSTwoLetter {
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration: overline;
+  text-decoration-style: wavy;
+  text-decoration-thickness: 3px;
+  text-transform: lowercase;
+  font-family: 'Merienda', sans-serif;
+}
+
 .skillsSLetter {
+  color: #0cf757;
+  background-color: #1b2404;
 }
 .skillsKLetter {
+  color: #042408;
+  background-color: #edf2ee;
 }
 .skillsILetter {
+  color: #fa19b3;
+  background-color: #30034a;
 }
 .skillsLLetter {
+  color: #57344c;
+  background-color: #3bdb41;
 }
 .skillsLTwoLetter {
+  color: #c2b6be;
+  background-color: #201354;
 }
 .skillsSTwoLetter {
+  color: #47f5a4;
+  background-color: #8a0b07;
 }
 
 /* SYMBOLS */
 
-.hyphen {
-}
 .exclamation-mark {
-}
-.question-mark {
+  font-size: 50px;
+  font-weight: 700;
+  text-decoration: wavy;
+  text-transform: uppercase;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #b0e3f5;
+  background-color: #278f0a;
 }
