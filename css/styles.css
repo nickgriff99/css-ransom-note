@@ -82,82 +82,197 @@ body {
 
 /* DID word */
 
+.didDLetter, .didILetter, .didDTwoLetter {
+  font-size: 70px;
+  font-weight: 400;
+  text-decoration: overline;
+  text-transform: uppercase;
+  font-family: 'Sixtyfour', sans-serif;
+}
+
 .didDLetter {
+  color: #93de7e;
+  background-color: #f9f871;
 }
 
 .didILetter {
+  color: #b0e3f5;
+  background-color: #bd2b3c;
 }
 
 .didDTwoLetter {
+  color: #bd2b3c;
+  background-color: #b0e3f5;
 }
 
 /* THE word */
 
+.theTLetter, .theHLetter, .theELetter {
+  font-size: 40px;
+  font-weight: 700;
+  text-decoration: line-through underline;
+  text-decoration-thickness: 10px;
+  text-transform: lowercase;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
 .theTLetter {
+  color: #278f0a;
+  background-color: #f56c2c;
 }
 
 .theHLetter {
+  color: #991595;
+  background-color: #29d9c1;
 }
 
 .theELetter {
+  color: #2b099c;
+  background-color: #a0fac2;
 }
 
 /* FRONT-END word */
 
+.frontendFLetter, .frontendRLetter, .frontendOLetter, .frontendNLetter, .frontendTLetter, .hyphen {
+  font-size: 40px;
+  font-weight: normal;
+  text-decoration: underline;
+  text-decoration-style: double;
+  text-decoration-thickness: 6px;
+  text-transform: capitalize;
+  font-family: 'Merienda', sans-serif;
+}
+
 .frontendFLetter {
+  color: #29d9c1;
+  background-color: white;
 }
 
 .frontendRLetter {
+  color: #8833bd;
+  background-color: #0a260a;
 }
 
 .frontendOLetter {
+  color: #29d9c1;
+  background-color: white;
 }
 
 .frontendNLetter {
+  color: #8833bd;
+  background-color: #0a260a;
 }
 
 .frontendTLetter {
+  color: #29d9c1;
+  background-color: white;
+}
+
+.hyphen {
+  color: #8833bd;
+  background-color: #0a260a;
+}
+
+.frontendELetter, .frontendNTwoLetter, .frontendDLetter {
+  font-size: 8px;
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration-style: solid;
+  text-decoration-thickness: 1px;
+  text-transform: lowercase;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 .frontendELetter {
+  color: rgb(120, 5, 12);
+  background-color: #6e696a;
 }
 
 .frontendNTwoLetter {
+  color: #523436;
+  background-color: #f5535d;
 }
 
 .frontendDLetter {
+  color: rgb(120, 5, 12);
+  background-color: #6e696a;
 }
 
 /* DEVELOPER word */
 
+.developerDLetter, .developerELetter, .developerVLetter, .developerETwoLetter, .developerLLetter, .developerOLetter, .developerPLetter, .developerEThreeLetter, .developerRLetter {
+  font-size: 55px;
+  font-weight: bold;
+  text-decoration: line-through;
+  text-decoration-style: solid;
+  text-decoration-thickness: 20px;
+  text-decoration-color: rgba(0, 0, 0, 0.7);
+  text-transform: uppercase;
+  font-family: 'Sixtyfour', sans-serif;
+}
+
 .developerDLetter {
+  color: #f9f871;
+  background-color: #000;
 }
 .developerELetter {
+  color: #0a260a;
+  background-color: #666666;
 }
 .developerVLetter {
+  color: #f0f0f0;
+  background-color: #203dfa;
 }
 .developerETwoLetter {
+  color: #f9f871;
+  background-color: #000;
 }
 .developerLLetter {
+  color: #0a260a;
+  background-color: #666666;
 }
 .developerOLetter {
+  color: #f0f0f0;
+  background-color: #203dfa;
 }
 .developerPLetter {
+  color: #f9f871;
+  background-color: #000;
 }
 .developerEThreeLetter {
+  color: #0a260a;
+  background-color: #666666;
 }
 .developerRLetter {
+  color: #f0f0f0;
+  background-color: #203dfa;
 }
 
 /* TAKE word */
 
+.takeTLetter, .takeALetter, .takeKLetter, .takeELetter {
+  font-size: 16px;
+  font-weight: lighter;
+  text-decoration: none;
+  text-transform: lowercase;
+  font-family: 'Sixtyfour', sans-serif;
+}
+
 .takeTLetter {
+  color: #203dfa;
+  background-color: #6e696a;
 }
 .takeALetter {
+  color: #000;
+  background-color: #8833bd;
 }
 .takeKLetter {
+  color: #203dfa;
+  background-color: #6e696a;
 }
 .takeELetter {
+  color: #000;
+  background-color: #8833bd;
 }
 
 /* UP word */

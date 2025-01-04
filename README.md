@@ -32,22 +32,22 @@ This assignment should prove that a student is able to:
 
 ## Standard requirements
 
-- [ ] Fork the project to your github account
-- [ ] Clone the project to your computer
-- [ ] Open the project in VSCode with `code <cloned_repo_folder_name>`
-- [ ] **This Assignment is NOT tested. You can use alll the desired creativity!**
+- [x] Fork the project to your github account
+- [x] Clone the project to your computer
+- [x] Open the project in VSCode with `code <cloned_repo_folder_name>`
+- [x] **This Assignment is NOT tested. You can use alll the desired creativity!**
 - [ ] All the tasks of the "Specific requirements" section MUST be solved
 - [ ] **The project's file/folder structure should NOT be edited!**
 - [ ] **The index.html file should NOT be edited!** The only acceptable change are additional classes added to elements.
 - [ ] VSCode IDE MUST have 0 problems listed
 - [ ] The code of the index.html and styles.css should pass the W3C validation (Feel free to use either the "[w3c web validator](https://marketplace.visualstudio.com/items?itemName=CelianRiboulet.webvalidator)" VSCode extension or the "[Online w3c Markup Validation Service](https://validator.w3.org/#validate_by_input)")
-- [ ] The code MUST be formatted with Prettier.
+- [x] The code MUST be formatted with Prettier.
 - [ ] Push the changes to the Github repo, when finished.
 - [ ] Submit a .txt file with the Github repo url.
 
 ## Specific requirements
 
-- [ ] Check out the sample image of a completed assignment to see the expected outcome in /assets/images/. You don't need to imitate it exactly, feel free to use any desired letter styles.
+- [x] Check out the sample image of a completed assignment to see the expected outcome in /assets/images/. You don't need to imitate it exactly, feel free to use any desired letter styles.
 - [ ] You should have at least 10 different styles for the letters. A "unique" style means a distinct combination of:
   - Font size
   - Font color
