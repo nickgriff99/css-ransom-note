@@ -225,26 +225,26 @@ body {
 }
 .developerETwoLetter {
   color: #f9f871;
-  background-color: #000;
+  background-color: #29d9c1;
 }
 .developerLLetter {
   color: #0a260a;
-  background-color: #666666;
+  background-color: #8833bd;
 }
 .developerOLetter {
   color: #f0f0f0;
-  background-color: #203dfa;
+  background-color: #282a56;
 }
 .developerPLetter {
   color: #f9f871;
   background-color: #000;
 }
 .developerEThreeLetter {
-  color: #0a260a;
+  color: #278f0a;
   background-color: #666666;
 }
 .developerRLetter {
-  color: #f0f0f0;
+  color: #278f0a;
   background-color: #203dfa;
 }
 
@@ -258,49 +258,61 @@ body {
   font-family: 'Sixtyfour', sans-serif;
 }
 
-.takeTLetter {
+.takeTLetter, .takeKLetter {
   color: #203dfa;
   background-color: #6e696a;
 }
-.takeALetter {
-  color: #000;
-  background-color: #8833bd;
-}
-.takeKLetter {
-  color: #203dfa;
-  background-color: #6e696a;
-}
-.takeELetter {
+.takeALetter, .takeELetter {
   color: #000;
   background-color: #8833bd;
 }
 
 /* UP word */
 
+.upULetter, .upPLetter {
+  font-size: 35px;
+  font-weight: bolder;
+  text-decoration: double line-through;
+  text-transform: lowercase;
+  font-family: 'Merienda', sans-serif;
+}
+
 .upULetter {
+  color: #a0fac2;
+  background-color: #f56c2c;
 }
 .upPLetter {
+  color: #203dfa;
+  background-color: #f9f871;
 }
 
 /* GARDENING word */
 
-.gardeningGLetter {
+.gardeningGLetter, .gardeningALetter, .gardeningRLetter, .gardeningDLetter, .gardeningELetter, .gardeningNLetter, .gardeningILetter, .gardeningNTwoLetter, .gardeningGTwoLetter {
+  font-size: 32px;
+  font-weight: normal;
+  text-decoration: overline;
+  text-transform: lowercase;
+  font-family: 'Piazolla', sans-serif;
 }
-.gardeningALetter {
+
+.gardeningGLetter, .gardeningRLetter, .gardeningELetter, .gardeningILetter, .gardeningGTwoLetter {
+  color: #f56c2c;
+  background-color: #f9f871;
 }
-.gardeningRLetter {
+
+.gardeningALetter, .gardeningDLetter, .gardeningNLetter, .gardeningNTwoLetter {
+  color: #f9f871;
+  background-color: #f56c2c;
 }
-.gardeningDLetter {
-}
-.gardeningELetter {
-}
-.gardeningNLetter {
-}
-.gardeningILetter {
-}
-.gardeningNTwoLetter {
-}
-.gardeningGTwoLetter {
+
+.question-mark {
+  font-size: 60px;
+  font-weight: bolder;
+  text-decoration: none;
+  text-shadow: 5px 5px 5px rgba(32, 61, 250, 0.8);
+  background-color: #0a260a;
+  color: coral;
 }
 
 /* BECAUSE word */
